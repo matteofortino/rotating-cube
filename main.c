@@ -3,10 +3,10 @@
 #include "rlgl.h"
 // --- CONFIGURAZIONE FACILE ---
 // Modifica questi valori per cambiare il comportamento
-#define ROTATION_SPEED 100.5f // Moltiplicatore velocità
-#define ROTATE_X true         // Attiva/Disattiva rotazione su X
-#define ROTATE_Y true         // Attiva/Disattiva rotazione su Y
-#define ROTATE_Z true         // Attiva/Disattiva rotazione su Z
+#define ROTATION_SPEED 1.5f // Moltiplicatore velocità
+#define ROTATE_X true       // Attiva/Disattiva rotazione su X
+#define ROTATE_Y true       // Attiva/Disattiva rotazione su Y
+#define ROTATE_Z false      // Attiva/Disattiva rotazione su Z
 
 int main(void) {
     // Inizializzazione
